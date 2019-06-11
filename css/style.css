@@ -1,2 +1,488 @@
+/* Colors */
+/* Font sizes */
+/* Fonts */
+/* Font weights */
+/* Border */
+/* GRID */
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
 
+@media (max-width: 767px) {
+  .col-sm-1 {
+    -ms-flex: 0 0 8.33333%;
+        flex: 0 0 8.33333%;
+    max-width: 8.33333%;
+  }
+  .col-sm-2 {
+    -ms-flex: 0 0 16.66667%;
+        flex: 0 0 16.66667%;
+    max-width: 16.66667%;
+  }
+  .col-sm-3 {
+    -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+    max-width: 25%;
+  }
+  .col-sm-4 {
+    -ms-flex: 0 0 33.33333%;
+        flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+  }
+  .col-sm-5 {
+    -ms-flex: 0 0 41.66667%;
+        flex: 0 0 41.66667%;
+    max-width: 41.66667%;
+  }
+  .col-sm-6 {
+    -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .col-sm-7 {
+    -ms-flex: 0 0 58.33333%;
+        flex: 0 0 58.33333%;
+    max-width: 58.33333%;
+  }
+  .col-sm-8 {
+    -ms-flex: 0 0 66.66667%;
+        flex: 0 0 66.66667%;
+    max-width: 66.66667%;
+  }
+  .col-sm-9 {
+    -ms-flex: 0 0 75%;
+        flex: 0 0 75%;
+    max-width: 75%;
+  }
+  .col-sm-10 {
+    -ms-flex: 0 0 83.33333%;
+        flex: 0 0 83.33333%;
+    max-width: 83.33333%;
+  }
+  .col-sm-11 {
+    -ms-flex: 0 0 91.66667%;
+        flex: 0 0 91.66667%;
+    max-width: 91.66667%;
+  }
+  .col-sm-12 {
+    -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .col-md-1 {
+    -ms-flex: 0 0 8.33333%;
+        flex: 0 0 8.33333%;
+    max-width: 8.33333%;
+  }
+  .col-md-2 {
+    -ms-flex: 0 0 16.66667%;
+        flex: 0 0 16.66667%;
+    max-width: 16.66667%;
+  }
+  .col-md-3 {
+    -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+    max-width: 25%;
+  }
+  .col-md-4 {
+    -ms-flex: 0 0 33.33333%;
+        flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+  }
+  .col-md-5 {
+    -ms-flex: 0 0 41.66667%;
+        flex: 0 0 41.66667%;
+    max-width: 41.66667%;
+  }
+  .col-md-6 {
+    -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .col-md-7 {
+    -ms-flex: 0 0 58.33333%;
+        flex: 0 0 58.33333%;
+    max-width: 58.33333%;
+  }
+  .col-md-8 {
+    -ms-flex: 0 0 66.66667%;
+        flex: 0 0 66.66667%;
+    max-width: 66.66667%;
+  }
+  .col-md-9 {
+    -ms-flex: 0 0 75%;
+        flex: 0 0 75%;
+    max-width: 75%;
+  }
+  .col-md-10 {
+    -ms-flex: 0 0 83.33333%;
+        flex: 0 0 83.33333%;
+    max-width: 83.33333%;
+  }
+  .col-md-11 {
+    -ms-flex: 0 0 91.66667%;
+        flex: 0 0 91.66667%;
+    max-width: 91.66667%;
+  }
+  .col-md-12 {
+    -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .col-lg-1 {
+    -ms-flex: 0 0 8.33333%;
+        flex: 0 0 8.33333%;
+    max-width: 8.33333%;
+  }
+  .col-lg-2 {
+    -ms-flex: 0 0 16.66667%;
+        flex: 0 0 16.66667%;
+    max-width: 16.66667%;
+  }
+  .col-lg-3 {
+    -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+    max-width: 25%;
+  }
+  .col-lg-4 {
+    -ms-flex: 0 0 33.33333%;
+        flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+  }
+  .col-lg-5 {
+    -ms-flex: 0 0 41.66667%;
+        flex: 0 0 41.66667%;
+    max-width: 41.66667%;
+  }
+  .col-lg-6 {
+    -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .col-lg-7 {
+    -ms-flex: 0 0 58.33333%;
+        flex: 0 0 58.33333%;
+    max-width: 58.33333%;
+  }
+  .col-lg-8 {
+    -ms-flex: 0 0 66.66667%;
+        flex: 0 0 66.66667%;
+    max-width: 66.66667%;
+  }
+  .col-lg-9 {
+    -ms-flex: 0 0 75%;
+        flex: 0 0 75%;
+    max-width: 75%;
+  }
+  .col-lg-10 {
+    -ms-flex: 0 0 83.33333%;
+        flex: 0 0 83.33333%;
+    max-width: 83.33333%;
+  }
+  .col-lg-11 {
+    -ms-flex: 0 0 91.66667%;
+        flex: 0 0 91.66667%;
+    max-width: 91.66667%;
+  }
+  .col-lg-12 {
+    -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .col-xl-1 {
+    -ms-flex: 0 0 8.33333%;
+        flex: 0 0 8.33333%;
+    max-width: 8.33333%;
+  }
+  .col-xl-2 {
+    -ms-flex: 0 0 16.66667%;
+        flex: 0 0 16.66667%;
+    max-width: 16.66667%;
+  }
+  .col-xl-3 {
+    -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+    max-width: 25%;
+  }
+  .col-xl-4 {
+    -ms-flex: 0 0 33.33333%;
+        flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+  }
+  .col-xl-5 {
+    -ms-flex: 0 0 41.66667%;
+        flex: 0 0 41.66667%;
+    max-width: 41.66667%;
+  }
+  .col-xl-6 {
+    -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .col-xl-7 {
+    -ms-flex: 0 0 58.33333%;
+        flex: 0 0 58.33333%;
+    max-width: 58.33333%;
+  }
+  .col-xl-8 {
+    -ms-flex: 0 0 66.66667%;
+        flex: 0 0 66.66667%;
+    max-width: 66.66667%;
+  }
+  .col-xl-9 {
+    -ms-flex: 0 0 75%;
+        flex: 0 0 75%;
+    max-width: 75%;
+  }
+  .col-xl-10 {
+    -ms-flex: 0 0 83.33333%;
+        flex: 0 0 83.33333%;
+    max-width: 83.33333%;
+  }
+  .col-xl-11 {
+    -ms-flex: 0 0 91.66667%;
+        flex: 0 0 91.66667%;
+    max-width: 91.66667%;
+  }
+  .col-xl-12 {
+    -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+/* BASIC STYLES */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/*
+  
+  h1, h2, h3, h4, h5, h6, ul, ol, p, a, div {
+    font-family: $font;
+    color: $main-font-color;
+  }*/
+a {
+  text-decoration: none;
+}
+
+p {
+  font-size: 14px;
+}
+
+li {
+  list-style: none;
+}
+
+/* CLASS TO HIDDEN LABEL IN DATE SELECT */
+.visually-hidden {
+  /* https://snook.ca/archives/html_and_css/hiding-content-for-accessibility */
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px);
+  /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+.container {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.container--small {
+  width: 100%;
+  max-width: 542px;
+  margin: 0 auto;
+}
+
+@media (max-width: 767px) {
+  .container--small {
+    width: 100%;
+  }
+}
+
+.header {
+  overflow: auto;
+  background-color: #000;
+}
+
+.header__logo {
+  display: block;
+  float: left;
+  padding-top: 23.5px;
+}
+
+.header__menu-list {
+  float: right;
+  padding: 23.5px;
+}
+
+.header__menu-list-item {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.header__menu-link {
+  color: #FFF;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  padding-bottom: 34px;
+}
+
+.header__menu-link:hover {
+  border-bottom: 5px solid #b08656;
+}
+
+.hero {
+  background-image: url("../images/hero.png");
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+  text-transform: uppercase;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.hero::after {
+  position: absolute;
+  content: '';
+  background: url("/images/paginator.png");
+  width: 65px;
+  height: 14px;
+  bottom: 40px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.hero::after {
+  position: absolute;
+  content: '';
+  background: url("/images/paginator.png");
+  width: 65px;
+  height: 14px;
+  bottom: 40px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.hero__wrapper {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+}
+
+.hero__header {
+  text-transform: uppercase;
+  font-size: 72px;
+  font-weight: 700;
+}
+
+.hero__header--white {
+  color: #FFF;
+  margin-bottom: 0;
+}
+
+.hero__header--gold {
+  color: #b08656;
+  margin: 0;
+}
+
+.hero__number {
+  color: #FFF;
+  font-size: 24px;
+  margin-top: 10px;
+  font-weight: 700;
+}
+
+.hero__call-button {
+  position: absolute;
+  right: 40px;
+  bottom: -31px;
+  border: none;
+  outline: none;
+  background: url("/images/telephone.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #b08656;
+  padding: 33px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.hero__call-button:hover {
+  background-color: #000;
+}
+
+.about-us__description {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.button {
+  text-transform: uppercase;
+  color: #FFF;
+  background-color: #b08656;
+  font-size: 12px;
+  font-weight: 700;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  padding: 16px 50px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.button:hover {
+  background-color: #000;
+}
+
+.section__header--black, .section__header--white {
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #000;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 64px;
+  margin-bottom: 10px;
+}
+
+.section__header--white {
+  color: #FFF;
+}
+
+.section-subheading {
+  text-transform: uppercase;
+  color: #cfcfcf;
+  text-align: center;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
 /*# sourceMappingURL=style.css.map */

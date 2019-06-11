@@ -1,0 +1,23 @@
+.section__header--black {
+    font-size: $header-font-size;
+    text-transform: uppercase;
+    color: $black;
+    font-weight: $font-bold;
+    text-align: center;
+    margin-top: 64px;
+    margin-bottom: 10px;
+}
+
+.section__header--white {
+    @extend .section__header--black;
+    color: $white;
+}
+
+.section-subheading {
+    text-transform: uppercase;
+    color: $grey;
+    text-align: center;
+    font-weight: $font-bold;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
