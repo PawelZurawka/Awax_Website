@@ -3,9 +3,9 @@
     box-sizing: border-box;
   }
 
-  body {
-    font-family: $font;
-  }
+body {
+  font-family: $font;
+}
   
 /*
   
@@ -14,23 +14,29 @@
     color: $main-font-color;
   }*/
   
-  a {
-    text-decoration: none;
-  }
+a {
+  text-decoration: none;
+}
 
-  p {
-    font-size: $paragraph-font-size;
-  }
+p {
+  font-size: $paragraph-font-size;
+}
 
-  li {
-    list-style: none;
-  }
+li {
+  list-style: none;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
   /* CLASS TO HIDDEN LABEL IN DATE SELECT */
-  .visually-hidden { /* https://snook.ca/archives/html_and_css/hiding-content-for-accessibility */
-    position: absolute !important;
-    height: 1px; width: 1px;
-    overflow: hidden;
-    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
-    clip: rect(1px, 1px, 1px, 1px);
+.visually-hidden { /* https://snook.ca/archives/html_and_css/hiding-content-for-accessibility */
+  position: absolute !important;
+  height: 1px; width: 1px;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
 }

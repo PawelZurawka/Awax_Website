@@ -4,6 +4,21 @@
     flex-wrap: wrap;
 }
 
+$grid-columns: 12;
+$grid-offset-columns: 12;
+
+@for $i from 1 through $grid-columns {
+  .col-#{$i} {
+    width: percentage($i / $grid-columns);
+  }
+}
+
+@for $i from 1 through $grid-offset-columns {
+  .col-offset-#{$i} {
+      margin-left: percentage($i / $grid-offset-columns);
+  }
+}
+
 @mixin grid($prefix) {
     @for $i from 1 through 12 {
       .col-#{$prefix}-#{$i} {

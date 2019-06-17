@@ -3,4 +3,13 @@
         font-size: $paragraph-font-size;
         font-weight: $font-medium;
     }
+
+    &__video {
+        float: right;
+    }
+
+    &__description {
+        line-height: 1.75;
+        padding-top: 7px;
+    }
 }
