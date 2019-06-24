@@ -7,16 +7,17 @@
 
     &__wrapper {
         text-align: center;
+        padding-bottom: 35px;
     }
 
     &__column {
-        border-left: $border;
+        border-left: $border-thick;
         height: 200px;
         padding: 10px 45px;
     }
 
     &__column:last-of-type {
-        border-right: $border;
+        border-right: $border-thick;
     }
 
     &__title {

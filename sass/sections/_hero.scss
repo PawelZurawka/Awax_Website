@@ -1,5 +1,5 @@
 .hero {
-    background-image: url('/images/hero.png');
+    background-image: url('../images/hero.png');
     height: 80vh;
     background-size: cover;
     background-position: center;
@@ -9,7 +9,7 @@
     &::after {
         position: absolute;
         content: '';
-        background-image: url('/images/paginator.png');
+        background-image: url('../images/paginator.png');
         width: 65px;
         height: 14px;
         bottom: 40px;
@@ -53,7 +53,7 @@
         bottom: -31px;
         border: none;
         outline: none;
-        background: url('/images/telephone.png');
+        background: url('../images/telephone.png');
         background-position: center;
         background-repeat: no-repeat;
         background-color: $gold;

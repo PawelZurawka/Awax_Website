@@ -1,0 +1,43 @@
+.projects {
+  &__menu {
+    display: flex;
+    justify-content: center;
+    border: $border-thin;
+    border-radius: 25px;
+    background-color: #ededed;
+    margin-bottom: 40px;
+    padding: 2px;
+  }
+
+  &__menu-item {
+    text-transform: uppercase;
+    border-left: $border-thin;
+    padding: 15px 0;
+    font-size: $paragraph-font-size;
+    font-weight: $font-medium;
+  }
+
+  &__menu-link {
+    list-style: none;
+    color: $black;
+    padding: 11px 20px;
+    margin: 5px;
+    border-bottom: 5px solid $gold;
+   // &:hover {
+    //  border-bottom: 5px solid $gold;
+    //}
+  }
+
+  &__menu-item:first-of-type {
+    border-left: none;
+  }
+
+  &__img {
+    padding-bottom: 20px;
+  }
+
+  &__button {
+    display: block;
+    margin: 0 auto;
+  }
+}
