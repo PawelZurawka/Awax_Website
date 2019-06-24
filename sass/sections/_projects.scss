@@ -5,14 +5,14 @@
     border: $border-thin;
     border-radius: 25px;
     background-color: #ededed;
-    margin-bottom: 40px;
+    margin: 40px 195px;
     padding: 2px;
   }
 
   &__menu-item {
     text-transform: uppercase;
     border-left: $border-thin;
-    padding: 15px 0;
+    padding: 20px 0;
     font-size: $paragraph-font-size;
     font-weight: $font-medium;
   }
@@ -20,24 +20,60 @@
   &__menu-link {
     list-style: none;
     color: $black;
-    padding: 11px 20px;
+    padding: 16px 18px;
     margin: 5px;
-    border-bottom: 5px solid $gold;
-   // &:hover {
-    //  border-bottom: 5px solid $gold;
-    //}
+    &:hover {
+      border-bottom: 5px solid $gold;
+    }
   }
 
   &__menu-item:first-of-type {
     border-left: none;
   }
 
+  &__gallery-row {
+    margin-left: 20px;
+  }
+
+  &__img-wrapper {
+    position: relative;
+  }
+
   &__img {
     padding-bottom: 20px;
   }
 
+  &__overlay {
+    position: absolute;
+    top: 0;
+    text-align: center;
+    background-color: $black;
+    height: 165px;
+    width: 255px;
+    opacity: 0;
+    transition: .5s ease-in-out;
+    &:hover {
+      opacity: .7;
+    }
+  }
+
+  &__overlay-header {
+    text-transform: uppercase;
+    color: $white;
+    margin-top: 45px;
+    font-weight: $font-medium;
+  }
+
+  &__overlay-paragraph {
+    color: $white;
+    font-weight: $font-light;
+    font-size: 13px;
+    padding: 0 11px;
+    line-height: 1.5;
+  }
+
   &__button {
     display: block;
-    margin: 0 auto;
+    margin: 55px auto;
   }
 }
