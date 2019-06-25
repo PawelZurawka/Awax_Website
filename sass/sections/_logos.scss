@@ -1,0 +1,17 @@
+.logos {
+  text-align: center;
+  border-bottom: $border-thin;
+
+  &__img {
+    padding: 43px;
+  }
+
+  &__wrapper img:nth-child(3) {
+    padding-bottom: 50px;
+  }
+
+  &__wrapper img:nth-child(6) {
+    padding-bottom: 50px;
+  }
+}
+

@@ -1,0 +1,70 @@
+.team {
+  background-image: url('../images/team_background.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  &::after {
+    position: absolute;
+    content: '';
+    background-image: url('../images/paginator.png');
+    width: 65px;
+    height: 14px;
+    bottom: 40px;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+
+
+  &__wrapper {
+    flex-wrap: nowrap;
+    padding-bottom: 105px;
+  }
+
+  &__worker {
+    background-color: $white;
+    text-align: center;
+    padding-top: 50px;
+    margin-right: 24px;
+    border-radius: 3px;
+  }
+
+  &__worker:last-of-type {
+    margin-right: 0;
+  }
+
+  &__worker-name {
+    text-transform: uppercase;
+    padding-top: 15px;
+    margin-bottom: 0;
+    font-size: 22px;
+    font-weight: $font-semi-bold;
+  }
+
+  &__worker-position {
+    font-weight: $font-medium;
+    margin-top: 5px;
+  }
+
+  &__social-wrapper {
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+
+  &__btn {
+    display: inline-block;
+    cursor: pointer;
+    font-size: 17px;
+    border-radius: 50%;
+    padding-top: 8px;
+    width: 34px;
+    height: 34px;
+    background-color: #bebebe;
+    transition: .5s ease-in-out;
+    color: $white;
+    &:hover {
+      background-color: $gold;
+    }
+  }
+}
