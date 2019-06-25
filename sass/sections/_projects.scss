@@ -1,5 +1,6 @@
 .projects {
   background-color: $section-bg;
+  padding-bottom: 60px;
   &__menu {
     display: flex;
     justify-content: center;
@@ -75,6 +76,6 @@
 
   &__button {
     display: block;
-    margin: 55px auto;
+    margin: 0 auto;
   }
 }
