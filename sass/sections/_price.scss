@@ -1,6 +1,8 @@
 .price {
   background-color: $section-bg;
   text-align: center;
+  padding-bottom: 60px;
+  border-bottom: $border-thin;
 
   &__wrapper {
     flex-wrap: nowrap;
