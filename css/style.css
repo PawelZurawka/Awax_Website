@@ -978,17 +978,6 @@ li {
   margin: 60px auto;
 }
 
-.premium__button::before {
-  position: absolute;
-  content: '';
-  background-image: url("../images/paginator.png");
-  width: 65px;
-  height: 14px;
-  bottom: 85px;
-  left: 50%;
-  transform: translate(-50%, 0);
-}
-
 .facts {
   background-color: #000;
 }
