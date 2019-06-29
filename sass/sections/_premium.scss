@@ -2,6 +2,17 @@
   &__wrapper {
     border-bottom: $border-thin;
     margin-bottom: 90px;
+    position: relative;
+    &::after {
+      position: absolute;
+      content: '';
+      background-image: url('../images/paginator.png');
+      width: 65px;
+      height: 14px;
+      bottom: -50px;
+      left: 50%;
+      transform: translate(-50%, 0);
+    }
   }
 
   &__col-right {
@@ -63,7 +74,6 @@
   &__button {
     display: block;
     margin: 60px auto;
-    position: relative;
     &::before {
       position: absolute;
       content: '';

@@ -902,6 +902,18 @@ li {
 .premium__wrapper {
   border-bottom: 1px solid #cfcfcf;
   margin-bottom: 90px;
+  position: relative;
+}
+
+.premium__wrapper::after {
+  position: absolute;
+  content: '';
+  background-image: url("../images/paginator.png");
+  width: 65px;
+  height: 14px;
+  bottom: -50px;
+  left: 50%;
+  transform: translate(-50%, 0);
 }
 
 .premium__col-right {
@@ -964,7 +976,6 @@ li {
 .premium__button {
   display: block;
   margin: 60px auto;
-  position: relative;
 }
 
 .premium__button::before {
@@ -976,6 +987,121 @@ li {
   bottom: 85px;
   left: 50%;
   transform: translate(-50%, 0);
+}
+
+.facts {
+  background-color: #000;
+}
+
+.facts__column {
+  text-align: center;
+}
+
+.facts__numbers {
+  color: #b08656;
+  font-size: 48px;
+  margin-bottom: 0;
+}
+
+.facts__title {
+  color: #FFF;
+  font-size: 18px;
+  text-transform: uppercase;
+  position: relative;
+  margin-top: 15px;
+  width: 178px;
+  margin: 15px auto;
+}
+
+.facts__title::before {
+  position: absolute;
+  content: "";
+  height: 3px;
+  width: 20px;
+  background-color: #5e5e5e;
+  transform: translate(-50%, 0);
+  left: 50%;
+  top: -12px;
+}
+
+.facts__description {
+  color: #FFF;
+  padding: 0 38px;
+}
+
+.facts__description-even {
+  margin-top: 35px;
+}
+
+.social-bar {
+  border-bottom: 1px solid #cfcfcf;
+}
+
+.social-bar__wrapper {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  text-align: center;
+  padding: 16px 0;
+}
+
+.social-bar__text {
+  text-transform: uppercase;
+  color: #bcbcbc;
+  font-weight: 700;
+  padding-left: 15px;
+  padding-right: 60px;
+}
+
+.social-bar__btn {
+  display: inline-block;
+  cursor: pointer;
+  font-size: 17px;
+  border-radius: 50%;
+  padding-top: 8px;
+  width: 34px;
+  height: 34px;
+  transition: .5s ease-in-out;
+  color: #FFF;
+}
+
+.social-bar__btn:hover {
+  background-color: #000;
+}
+
+.social-bar__number {
+  font-size: 10px;
+  font-weight: 700;
+  padding-right: 35px;
+  padding-left: 5px;
+  color: #bcbcbc;
+}
+
+.social-bar__twitter {
+  background-color: #33CCFF;
+}
+
+.social-bar__linkedin {
+  background-color: #4875B4;
+}
+
+.social-bar__facebook {
+  background-color: #3b5998;
+}
+
+.social-bar__google-plus {
+  background-color: #C63D2D;
+}
+
+.social-bar__pinterest {
+  background-color: #cb2028;
+}
+
+.contact {
+  background-color: #ededed;
 }
 
 .button {

@@ -1,0 +1,42 @@
+.facts {
+  background-color: $black;
+
+  &__column {
+    text-align: center;
+  }
+
+  &__numbers {
+    color: $gold;
+    font-size: 48px;
+    margin-bottom: 0;
+  }
+
+  &__title {
+    color: $white;
+    font-size: 18px;
+    text-transform: uppercase;
+    position: relative;
+    margin-top: 15px;
+    width: 178px;
+    margin: 15px auto;
+    &::before {
+      position: absolute;
+      content: "";
+      height: 3px;
+      width: 20px;
+      background-color: $dark-grey;
+      transform: translate(-50%, 0);
+      left: 50%;
+      top: -12px;
+    }
+  }
+
+  &__description {
+    color: $white;
+    padding: 0 38px;
+  }
+
+  &__description-even {
+    margin-top: 35px;
+  }
+}
