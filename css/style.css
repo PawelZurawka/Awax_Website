@@ -1016,6 +1016,9 @@ li {
 .facts__description {
   color: #FFF;
   padding: 0 38px;
+  margin-bottom: 80px;
+  color: #bcbcbc;
+  font-size: 12px;
 }
 
 .facts__description-even {
@@ -1091,6 +1094,61 @@ li {
 
 .contact {
   background-color: #ededed;
+  padding-bottom: 60px;
+}
+
+.contact__form {
+  padding: 0 260px;
+}
+
+.contact__field, .contact__message-field {
+  width: 100%;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 2px solid #AEAEAE;
+  background-color: #ededed;
+  outline: none;
+  padding-bottom: 10px;
+  padding-top: 15px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.contact__field:-ms-input-placeholder, .contact__message-field:-ms-input-placeholder {
+  color: #AEAEAE;
+}
+
+.contact__field::placeholder, .contact__message-field::placeholder {
+  color: #AEAEAE;
+}
+
+.contact__message-field {
+  resize: none;
+  padding-top: 50px;
+}
+
+.contact__message-field:-ms-input-placeholder {
+  position: relative;
+  top: 15px;
+}
+
+.contact__message-field::placeholder {
+  position: relative;
+  top: 15px;
+}
+
+.contact__name {
+  width: 90%;
+}
+
+.contact__email {
+  width: 90%;
+  margin-left: 10%;
+}
+
+.contact__button {
+  display: block;
+  margin: 0 auto;
 }
 
 .button {

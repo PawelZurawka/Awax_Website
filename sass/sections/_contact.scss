@@ -1,3 +1,48 @@
 .contact {
   background-color: $section-bg;
+  padding-bottom: 60px;
+
+  &__form {
+    padding: 0 260px;
+  }
+
+  &__field {
+      width: 100%;
+      margin-bottom: 30px;
+      border: none;
+      border-bottom: 2px solid #AEAEAE;
+      background-color: $section-bg;
+      outline: none;
+      padding-bottom: 10px;
+      padding-top: 15px;
+      font-size: 14px;
+      font-weight: $font-medium;
+      &::placeholder {
+          color: #AEAEAE;
+      }
+  }
+
+  &__message-field {
+      @extend .contact__field;
+      resize: none;
+      padding-top: 50px;
+      &::placeholder {
+        position: relative;
+        top: 15px;
+    }
+  }
+
+  &__name {
+    width: 90%;
+  }
+
+  &__email {
+    width: 90%;
+    margin-left: 10%;
+  }
+
+  &__button {
+    display: block;
+    margin: 0 auto;
+  }
 }

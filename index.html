@@ -419,9 +419,27 @@
         </div>
       </section>
       <section class="contact">
-        <div class="container"></div>
-        <h2 class="section__header--black team__header">contact us</h2>
-        <p class="section-subheading">our agency located in melbourne, australia</p>
+        <div class="container">
+          <h2 class="section__header--black team__header">contact us</h2>
+          <p class="section-subheading">our agency located in melbourne, australia</p>
+          <form class="contact__form" action="" method="post">
+            <div class="row">
+              <div class="col-6">
+                <label for="name" class="visually-hidden">Name:</label>
+                <input class="contact__field contact__name" name="user_name" type="text" id="name" placeholder="NAME" required>
+              </div>
+              <div class="col-6">
+                <label for="mail" class="visually-hidden">E-mail:</label>
+                <input class="contact__field contact__email" name="email" type="email" id="mail" placeholder="EMAIL" required>
+              </div>
+            </div>
+            <label for="subject" class="visually-hidden">Subject:</label>
+            <input class="contact__field" name="subject" type="text" id="subject" placeholder="SUBJECT">
+            <label for="msg" class="visually-hidden">Message:</label>
+            <textarea class="contact__message-field" id="msg" name="user_message" placeholder="MESSAGE" required></textarea>
+            <button class="button contact__button">send message</button>
+          </form>
+        </div>
       </section>
     </main>
   </body>
