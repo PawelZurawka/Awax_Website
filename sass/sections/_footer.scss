@@ -1,0 +1,33 @@
+.footer {
+  background-color: $black;
+
+  &__social-wrapper {
+    padding: 30px 0;
+  }
+
+  &__btn {
+    display: inline-block;
+    cursor: pointer;
+    font-size: 17px;
+    border-radius: 50%;
+    padding-top: 8px;
+    margin-right: 5px;
+    width: 34px;
+    height: 34px;
+    background-color: #373737;
+    transition: .5s ease-in-out;
+    color: $white;
+    text-align: center;
+    &:hover {
+      background-color: $gold;
+    }
+  }
+
+  &__span {
+    display: block;
+    color: $white;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 125px;
+  }
+}

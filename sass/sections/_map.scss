@@ -1,0 +1,45 @@
+.map {
+  background-image: url('../images/map.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+
+  &__wrapper {
+    background-color: $white;
+    padding: 40px 30px;
+    margin: 40px 0;
+  }
+
+  &__btn {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    color: $dark-grey;
+    font-weight: $font-medium;
+    padding: 8px;
+  }
+
+  &__icon {
+    padding-right: 20px;
+  }
+
+  &__arrow {
+    position: absolute;
+    left: 40px;
+    bottom: -31px;
+    border: none;
+    outline: none;
+    background: url(../images/arrowup.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #b08656;
+    padding: 33px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.2s;
+    &:hover {
+      background-color: $black;
+    }
+  }
+}
