@@ -27,7 +27,43 @@
     display: block;
     color: $white;
     text-transform: uppercase;
+    font-size: 13px;
+    margin-top: 130px;
+  }
+
+  &__text {
+    color: #7e7e7e;
+    font-size: 12px;
+    line-height: 1.7;
+    padding-top: 18px;
+    margin-left: -20px;
+  }
+
+  &__subscribe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #373737;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 3px;
+  }
+
+  &__email {
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 2px solid #AEAEAE;
+    background-color: #373737;
+    color: $white;
+    outline: none;
     font-size: 14px;
-    margin-top: 125px;
+    font-weight: $font-medium;
+    padding: 15px;
+    &::placeholder {
+      background-color: #373737;
+      text-align: center;
+      color: #AEAEAE;
+    }
   }
 }

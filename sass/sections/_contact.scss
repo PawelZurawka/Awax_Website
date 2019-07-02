@@ -26,10 +26,6 @@
       @extend .contact__field;
       resize: none;
       padding-top: 50px;
-      &::placeholder {
-        position: relative;
-        top: 15px;
-    }
   }
 
   &__name {
