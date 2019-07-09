@@ -48,5 +48,8 @@
     line-height: 1.8;
     padding-top: 10px;
     padding-bottom: 50px;
+    @include breakpoint(sm) {
+      margin: 0 20px;
+    }
   }
 }

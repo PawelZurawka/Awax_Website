@@ -1,21 +1,46 @@
 .header {
     overflow: auto;
     background-color: $black;
+    @include breakpoint(sm) {
+        text-align: center;
+    }
+    @include breakpoint(md) {
+        text-align: center;
+    }
 
     &__logo {
         display: block;
         float: left;
         padding-top: 23.5px;
+        @include breakpoint(sm) {
+            margin-top: 0;
+            float: none;
+            display: inline-block;
+        }
+        @include breakpoint(md) {
+            margin-top: 0;
+            float: none;
+            display: inline-block;
+        }
     }
 
     &__menu-list {
         float: right;
         padding: 23.5px;
+        @include breakpoint(sm) {
+            display: flex;
+            flex-direction: column;
+            float: none;
+            padding: 10px;
+        }
     }
 
     &__menu-list-item {
         display: inline-block;
         padding: 0 10px;
+        @include breakpoint(sm) {
+            padding: 5px;
+        }
     }
 
     &__menu-link {
@@ -24,9 +49,15 @@
         font-size: 14px;
         font-weight: $font-bold;
         padding-bottom: 34px;
+        @include breakpoint(sm) {
+            padding: 0;
+        }
         &:hover {
             border-bottom: 5px solid $gold;
             color: $gold;
+            @include breakpoint(sm) {
+                border: none;
+            }
         }
     }
 }

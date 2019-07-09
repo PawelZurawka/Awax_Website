@@ -6,12 +6,19 @@
 
   &__wrapper {
     flex-wrap: nowrap;
+    @include breakpoint(sm) {
+      flex-wrap: wrap;
+    }
   }
 
   &__column {
     background-color: $white;
     margin-right: 25px;
     border-radius: 3px;
+    @include breakpoint(sm) {
+      margin-right: 0;
+      background-color: #ededed;
+    }
   }
 
   &__bundle {

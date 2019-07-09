@@ -3,6 +3,10 @@
 
   &__social-wrapper {
     padding: 30px 0;
+    @include breakpoint(sm) {
+      padding-top: 50px;
+      text-align: center;
+    }
   }
 
   &__btn {
@@ -29,6 +33,10 @@
     text-transform: uppercase;
     font-size: 13px;
     margin-top: 130px;
+    @include breakpoint(sm) {
+      margin-top: 10px;
+      
+    }
   }
 
   &__text {
@@ -37,6 +45,10 @@
     line-height: 1.7;
     padding-top: 18px;
     margin-left: -20px;
+    @include breakpoint(sm) {
+      margin-left: 0;
+      padding: 0 10px;
+    }
   }
 
   &__subscribe {
@@ -48,6 +60,9 @@
     margin-top: 30px;
     margin-bottom: 30px;
     border-radius: 3px;
+    @include breakpoint(sm) {
+      margin-top: 15px;
+    }
   }
 
   &__email {
@@ -64,6 +79,12 @@
       background-color: #373737;
       text-align: center;
       color: #AEAEAE;
+    }
+  }
+
+  &__subscribe-btn {
+    @include breakpoint(sm) {
+      margin-bottom: 15px;
     }
   }
 }

@@ -13,5 +13,8 @@
     transition: 0.2s;
     &:hover {
         background-color: $black;
+        @include breakpoint(sm) {
+            background-color: $gold;
+        }
     }
 }

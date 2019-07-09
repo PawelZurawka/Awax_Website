@@ -9,6 +9,15 @@
     background-color: #ededed;
     margin: 40px 195px;
     padding: 2px;
+    @include breakpoint(sm) {
+      flex-direction: column;
+      align-items: center;
+      border: none;
+      margin: 0;
+    }
+    @include breakpoint(md) {
+      margin: 20px 80px;
+    }
   }
 
   &__menu-item {
@@ -17,6 +26,9 @@
     padding: 20px 0;
     font-size: $paragraph-font-size;
     font-weight: $font-medium;
+    @include breakpoint(sm) {
+      border: none;
+    }
   }
 
   &__menu-link {
@@ -35,6 +47,12 @@
 
   &__gallery-row {
     margin-left: 20px;
+    @include breakpoint(sm) {
+      margin: 0;
+    }
+    @include breakpoint(md) {
+      margin: 0;
+    }
   }
 
   &__img-wrapper {

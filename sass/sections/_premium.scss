@@ -19,6 +19,9 @@
     padding-left: 30px;
     margin-top: 40px;
     padding-right: 150px;
+    @include breakpoint(sm) {
+      padding: 0;
+    }
   }
 
   &__checkbox-img {

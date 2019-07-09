@@ -20,6 +20,9 @@
   &__wrapper {
     flex-wrap: nowrap;
     padding-bottom: 105px;
+    @include breakpoint(sm) {
+      flex-wrap: wrap;
+    }
   }
 
   &__worker {
@@ -28,6 +31,10 @@
     padding-top: 50px;
     margin-right: 24px;
     border-radius: 3px;
+    @include breakpoint(sm) {
+      margin-right: 0;
+      border-radius: 0;
+    }
   }
 
   &__worker:last-of-type {
