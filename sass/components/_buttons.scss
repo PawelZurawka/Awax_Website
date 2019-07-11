@@ -16,5 +16,8 @@
         @include breakpoint(sm) {
             background-color: $gold;
         }
+        @include breakpoint(md) {
+            background-color: $gold;
+        }
     }
 }

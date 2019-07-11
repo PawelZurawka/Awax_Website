@@ -21,6 +21,7 @@
     @include breakpoint(sm) {
       padding-left: 10px;
       padding-right: 10px;
+      width: 100%;
     }
   }
 
@@ -52,21 +53,61 @@
 
   &__twitter {
     background-color: #33CCFF;
+    &:hover {
+      @include breakpoint(sm) {
+        background-color: #33CCFF;
+      }
+      @include breakpoint(md) {
+        background-color: #33CCFF;
+      }
+    }
   }
 
   &__linkedin {
     background-color: #4875B4;
+    &:hover {
+      @include breakpoint(sm) {
+        background-color: #4875B4;
+      }
+      @include breakpoint(md) {
+        background-color: #4875B4;
+      }
+    }
   }
 
   &__facebook {
     background-color: #3b5998;
+    &:hover {
+      @include breakpoint(sm) {
+        background-color: #3b5998;
+      }
+      @include breakpoint(md) {
+        background-color: #3b5998;
+      }
+    }
   }
 
   &__google-plus {
     background-color: #C63D2D;
+    &:hover {
+      @include breakpoint(sm) {
+        background-color: #C63D2D;
+      }
+      @include breakpoint(md) {
+        background-color: #C63D2D;
+      }
+    }
   }
 
   &__pinterest {
     background-color: #cb2028;
+    &:hover {
+      @include breakpoint(sm) {
+        background-color: #cb2028;
+      }
+      @include breakpoint(md) {
+        background-color: #cb2028;
+      }
+    }
   }
 }

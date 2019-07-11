@@ -7,15 +7,12 @@ body {
   font-family: $font;
 }
   
-/*
-  
-  h1, h2, h3, h4, h5, h6, ul, ol, p, a, div {
-    font-family: $font;
-    color: $main-font-color;
-  }*/
-  
 a {
   text-decoration: none;
+}
+
+img {
+  max-width: 100%;
 }
 
 p {

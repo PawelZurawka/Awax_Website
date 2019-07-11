@@ -15,12 +15,19 @@
     }
   }
 
+  &__col-left {
+    @include breakpoint(sm) {
+      text-align: center;
+    }
+  }
+
   &__col-right {
     padding-left: 30px;
     margin-top: 40px;
     padding-right: 150px;
     @include breakpoint(sm) {
       padding: 0;
+      padding-left: 10px;
     }
   }
 

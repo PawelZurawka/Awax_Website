@@ -8,14 +8,20 @@
     }
     @include breakpoint(md) {
       margin-bottom: 20px;
+      margin-left: 10px;
     }
   }
 
   &__description {
     font-size: $paragraph-font-size;
     font-weight: $font-medium;
+    line-height: 1.75;
+    padding-top: 7px;
     @include breakpoint(sm) {
       text-align: center;
+    }
+    @include breakpoint(md) {
+      padding: 7px 10px;
     }
   }
 
@@ -23,12 +29,8 @@
     float: right;
     @include breakpoint(sm) {
       float: none;
-      transform: scale(0.8);
+      display: block;
+      margin: 0 auto;
     }
-  }
-
-  &__description {
-    line-height: 1.75;
-    padding-top: 7px;
   }
 }

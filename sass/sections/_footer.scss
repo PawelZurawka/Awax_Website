@@ -24,6 +24,14 @@
     text-align: center;
     &:hover {
       background-color: $gold;
+      &:hover {
+        @include breakpoint(sm) {
+          background-color: #373737;
+        }
+        @include breakpoint(md) {
+          background-color: #373737;
+        }
+      }
     }
   }
 

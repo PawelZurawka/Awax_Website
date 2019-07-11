@@ -4,6 +4,9 @@
   background-position: center;
   background-size: cover;
   position: relative;
+  @include breakpoint(sm) {
+    background-image: none;
+  }
   &::after {
     position: absolute;
     content: '';
@@ -15,13 +18,26 @@
     transform: translate(-50%, 0);
   }
 
-
+  &__header {
+    font-size: $header-font-size;
+    text-transform: uppercase;
+    color: $white;
+    font-weight: $font-bold;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 60px;
+    @include breakpoint(sm) {
+      color: $black;
+    }
+  }
 
   &__wrapper {
     flex-wrap: nowrap;
     padding-bottom: 105px;
     @include breakpoint(sm) {
       flex-wrap: wrap;
+      padding-bottom: 60px;
     }
   }
 
@@ -34,6 +50,7 @@
     @include breakpoint(sm) {
       margin-right: 0;
       border-radius: 0;
+      padding-top: 0;
     }
   }
 
@@ -72,6 +89,12 @@
     color: $white;
     &:hover {
       background-color: $gold;
+      @include breakpoint(sm) {
+        background-color: $icon-background;
+      }
+      @include breakpoint(md) {
+        background-color: $icon-background;
+      }
     }
   }
 }

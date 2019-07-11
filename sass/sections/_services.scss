@@ -8,10 +8,16 @@
     &__column {
         border-left: $border-thick;
         padding: 10px 45px;
+        @include breakpoint(sm) {
+            border: none;
+          }
     }
 
     &__column:last-of-type {
         border-right: $border-thick;
+        @include breakpoint(sm) {
+            border: none;
+          }
     }
 
     &__title {

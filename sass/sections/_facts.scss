@@ -19,6 +19,9 @@
     margin-top: 15px;
     width: 178px;
     margin: 15px auto;
+    @include breakpoint(sm) {
+      width: auto;
+  }
     &::before {
       position: absolute;
       content: "";
