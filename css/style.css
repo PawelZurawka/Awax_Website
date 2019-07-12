@@ -1029,7 +1029,7 @@ li {
       flex-direction: column;
   -ms-flex-align: center;
       align-items: center;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
 }
 
 .clients__img {
@@ -1049,22 +1049,22 @@ li {
   margin-top: 5px;
 }
 
-.clients__quotes {
+.clients__quotes-mark {
   padding-top: 10px;
 }
 
-.clients__description {
+.clients__quote {
   font-size: 14px;
   color: #7E7E7E;
   text-align: center;
-  margin: 0px 200px;
+  margin: 0px 150px;
   line-height: 1.8;
   padding-top: 10px;
   padding-bottom: 50px;
 }
 
 @media (max-width: 767px) {
-  .clients__description {
+  .clients__quote {
     margin: 0 20px;
   }
 }
@@ -1412,6 +1412,7 @@ li {
 
 .social-bar__twitter {
   background-color: #33CCFF;
+  position: relative;
 }
 
 @media (max-width: 767px) {
@@ -1423,6 +1424,23 @@ li {
 @media (min-width: 768px) and (max-width: 991.99px) {
   .social-bar__twitter:hover {
     background-color: #33CCFF;
+  }
+}
+
+.social-bar__twitter::before {
+  position: absolute;
+  content: '';
+  background-image: url("../images/share.png");
+  width: 23px;
+  height: 25px;
+  right: 230px;
+  bottom: 4px;
+}
+
+@media (max-width: 767px) {
+  .social-bar__twitter::before {
+    bottom: 43px;
+    left: 55px;
   }
 }
 

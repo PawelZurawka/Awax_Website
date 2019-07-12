@@ -53,12 +53,26 @@
 
   &__twitter {
     background-color: #33CCFF;
+    position: relative;
     &:hover {
       @include breakpoint(sm) {
         background-color: #33CCFF;
       }
       @include breakpoint(md) {
         background-color: #33CCFF;
+      }
+    }
+    &::before {
+      position: absolute;
+      content: '';
+      background-image: url('../images/share.png');
+      width: 23px;
+      height: 25px;
+      right: 230px;
+      bottom: 4px;
+      @include breakpoint(sm) {
+        bottom: 43px;
+        left: 55px;
       }
     }
   }

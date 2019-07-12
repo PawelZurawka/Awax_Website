@@ -16,7 +16,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
   }
 
   &__img {
@@ -36,15 +36,15 @@
     margin-top: 5px;
   }
 
-  &__quotes {
+  &__quotes-mark {
     padding-top: 10px;
   }
 
-  &__description {
+  &__quote {
     font-size: $paragraph-font-size;
     color: #7E7E7E;
     text-align: center;
-    margin: 0px 200px;
+    margin: 0px 150px;
     line-height: 1.8;
     padding-top: 10px;
     padding-bottom: 50px;
