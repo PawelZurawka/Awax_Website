@@ -35,7 +35,7 @@
   "license": "ISC",
   "devDependencies": {
     "autoprefixer-cli": "^1.0.0",
-    "browser-sync": "^2.27.10",
+    "browser-sync": "^2.29.1",
     "globstar": "^1.0.0",
     "html-minifier": "^4.0.0",
     "mkdirp": "^0.5.6",
